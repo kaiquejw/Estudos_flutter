@@ -1,16 +1,26 @@
-# estudos_flutter
+#   Estudos Flutter - Resoluções Práticas de Entrevista
 
-A new Flutter project.
+Este projeto consiste na implementação prática e visual das perguntas de entrevista para desenvolvedores Flutter (baseado no questionário (https://www.turing.com/interview-questions/flutter)).
 
-## Getting Started
+##   Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Menu Dinâmico:** Navegação centralizada para todas as questões.
+- **Exemplos Visuais:**
+  - Diferença entre Stateless e Stateful na prática.
+  - Logs visuais do Ciclo de Vida (Lifecycle).
+  - Playground de Layouts (Row vs Column).
+  - Estilização de Containers e Decorações.
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Estrutura do Projeto
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+O projeto está organizado por telas, onde cada tela representa uma questão isolada:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+lib/
+ ├── main.dart                 
+ └── pages/         
+      ├── questao1page.dart
+      ├── questao2page.dart
+      ├── questao3page.dart
+      └── questao4page.dart
+     
