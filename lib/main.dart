@@ -20,6 +20,14 @@ import 'pages/questao18page.dart';
 import 'pages/questao19page.dart';
 import 'pages/questao20page.dart';
 import 'pages/questao21page.dart';
+import 'pages/questao22page.dart';
+import 'pages/questao23page.dart';
+import 'pages/questao24page.dart';
+import 'pages/questao25page.dart';
+import 'pages/questao26page.dart';
+import 'pages/questao27page.dart';
+import 'pages/questao28page.dart';
+import 'pages/questao30page.dart';
 
 void main() {
   runApp(const MeuAppEstudos());
@@ -170,12 +178,61 @@ class MenuPrincipal extends StatelessWidget {
       'nivel': 'Prático',
       'pagina': Questao21Page(),
     },
+        {
+      'id': 22,
+      'titulo': 'Apps populares em Flutter',
+      'nivel': 'Teórico',
+      'pagina': Questao22Page(),
+    },
+    {
+      'id': 23,
+      'titulo': 'Qual pasta é usada para escrever aplicativos Android no Flutter?',
+      'nivel': 'Teórico',
+      'pagina': Questao23Page(),
+    },
+    {
+      'id': 24,
+      'titulo': 'Função Await (Async)',
+      'nivel': 'Prático',
+      'pagina': Questao24Page(),
+    },
+    {
+      'id': 25,
+      'titulo': 'Compilar e Atualizar',
+      'nivel': 'Teórico',
+      'pagina': Questao25Page(),
+    },
+    {
+      'id': 26,
+      'titulo': 'Função main()',
+      'nivel': 'Teórico',
+      'pagina': Questao26Page(),
+    },
+    {
+      'id': 27,
+      'titulo': 'AnimationController',
+      'nivel': 'Prático',
+      'pagina': Questao27Page(),
+    },
+    {
+      'id': 28,
+      'titulo': 'Testar Widget',
+      'nivel': 'Teórico',
+      'pagina': Questao28Page(),
+    },
+    {
+      'id': 30,
+      'titulo': 'Testar Widget',
+      'nivel': 'Teórico',
+      'pagina': Questao30Page(),
+    },
+   
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Menu de Questões (1-21)')),
+      appBar: AppBar(title: const Text('Menu de Questões (1-30)')),
       body: ListView.builder(
         itemCount: _questoes.length,
         itemBuilder: (context, index) {
