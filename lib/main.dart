@@ -28,6 +28,17 @@ import 'pages/questao26page.dart';
 import 'pages/questao27page.dart';
 import 'pages/questao28page.dart';
 import 'pages/questao30page.dart';
+import 'pages/questao31page.dart';
+import 'pages/questao32page.dart';
+import 'pages/questao33page.dart';
+import 'pages/questao34page.dart';
+import 'pages/questao35page.dart';
+import 'pages/questao36page.dart';
+import 'pages/questao37page.dart';
+import 'pages/questao39page.dart';
+import 'pages/questao40page.dart';
+import 'pages/questao41page.dart';
+
 
 void main() {
   runApp(const MeuAppEstudos());
@@ -226,6 +237,68 @@ class MenuPrincipal extends StatelessWidget {
       'nivel': 'Teórico',
       'pagina': Questao30Page(),
     },
+    {
+      'id': 31,
+      'titulo': 'Widgets Sem Estado',
+      'nivel': 'Prático',
+      'pagina': Questao31Page(),
+    },
+    {
+      'id': 32,
+      'titulo': 'Tree Shaking',
+      'nivel': 'Teórico',
+      'pagina': Questao32Page(),
+    },
+    {
+      'id': 33,
+      'titulo': 'Importar Pacotes',
+      'nivel': 'Teórico',
+      'pagina': Questao33Page(),
+    },
+    {
+      'id': 34,
+      'titulo': 'Navigator.push',
+      'nivel': 'Prático',
+      'pagina': Questao34Page(),
+    },
+    {
+      'id': 35,
+      'titulo': 'Pacote HTTP',
+      'nivel': 'Prático',
+      'pagina': Questao35Page(),
+    },
+    {
+      'id': 36,
+      'titulo': 'Profile Mode',
+      'nivel': 'Teórico',
+      'pagina': Questao36Page(),
+    },
+    {
+      'id': 37,
+      'titulo': 'BuildContext',
+      'nivel': 'Teórico',
+      'pagina': Questao37Page(),
+    },
+    {
+      'id': 39,
+      'titulo': 'Retorno Padrão',
+      'nivel': 'Teórico',
+      'pagina': Questao39Page(),
+    },
+    {
+      'id': 40,
+      'titulo': 'Construtores',
+      'nivel': 'Teórico',
+      'pagina': Questao40Page(),
+    },
+    {
+      'id': 41,
+      'titulo': 'Mecanismo de Layout',
+      'nivel': 'Teórico',
+      'pagina': Questao41Page(),
+    },
+  
+
    
   ];
 
