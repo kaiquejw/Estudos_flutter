@@ -38,6 +38,23 @@ import 'pages/questao37page.dart';
 import 'pages/questao39page.dart';
 import 'pages/questao40page.dart';
 import 'pages/questao41page.dart';
+import 'pages/questao42page.dart';
+import 'pages/questao43page.dart';
+import 'pages/questao44page.dart';
+import 'pages/questao45page.dart';
+import 'pages/questao46page.dart';
+import 'pages/questao47page.dart';
+import 'pages/questao48page.dart';
+import 'pages/questao49page.dart';
+import 'pages/questao50page.dart';
+import 'pages/questao51page.dart';
+import 'pages/questao52page.dart';
+import 'pages/questao53page.dart';
+import 'pages/questao54page.dart';
+import 'pages/questao55page.dart';
+import 'pages/questao56page.dart';
+import 'pages/questao57page.dart';
+
 
 
 void main() {
@@ -297,7 +314,104 @@ class MenuPrincipal extends StatelessWidget {
       'nivel': 'Teórico',
       'pagina': Questao41Page(),
     },
-  
+    {
+      'id': 42,
+      'titulo': 'ListView',
+      'nivel': 'Prático',
+      'pagina': Questao42Page(),
+    },
+    {
+      'id': 43,
+      'titulo': 'O que é Layout?',
+      'nivel': 'Teórico',
+      'pagina': Questao43Page(),
+    },
+    {
+      'id': 44,
+      'titulo': 'Teste de Widget',
+      'nivel': 'Teórico',
+      'pagina': Questao44Page(),
+    },
+    {
+      'id': 45,
+      'titulo': 'Versão do Flutter',
+      'nivel': 'Teórico',
+      'pagina': Questao45Page(),
+    },
+    {
+      'id': 46,
+      'titulo': 'Front ou Back',
+      'nivel': 'Teórico',
+      'pagina': Questao46Page(),
+    },
+        {
+      'id': 47,
+      'titulo': 'Futures',
+      'nivel': 'Prático',
+      'pagina': Questao47Page(),
+    },
+    {
+      'id': 48,
+      'titulo': 'Image.network',
+      'nivel': 'Teórico',
+      'pagina': Questao48Page(),
+    },
+    {
+      'id': 49,
+      'titulo': 'Runes e Unicode',
+      'nivel': 'Teórico',
+      'pagina': Questao49Page(),
+    },
+    {
+      'id': 50,
+      'titulo': 'Flutter é gratuito?',
+      'nivel': 'Teórico',
+      'pagina': Questao50Page(),
+    },
+    {
+      'id': 51,
+      'titulo': 'Constantes Imutáveis',
+      'nivel': 'Teórico',
+      'pagina': Questao51Page(),
+    },
+    {
+      'id': 52,
+      'titulo': 'Operadores Essenciais em Dart',
+      'nivel': 'Teórico',
+      'pagina': Questao52Page(),
+    },
+    {
+      'id': 53,
+      'titulo': 'O que é Ticker?',
+      'nivel': 'Prático',
+      'pagina': Questao53Page(),
+    },
+    {
+      'id': 54,
+      'titulo': 'JIT & AOT',
+      'nivel': 'Teórico',
+      'pagina': Questao54Page(),
+    },
+    {
+      'id': 55,
+      'titulo': 'A Linguagem Dart',
+      'nivel': 'Teórico',
+      'pagina': Questao55Page(),
+    },
+    {
+      'id': 56,
+      'titulo': 'Performance de Widgets',
+      'nivel': 'Teórico',
+      'pagina': Questao56Page(),
+    },
+    {
+      'id': 57,
+      'titulo': 'Spacer Widget & Flex',
+      'nivel': 'Prático',
+      'pagina': Questao57Page(),
+    },
+
+
 
    
   ];
@@ -305,7 +419,7 @@ class MenuPrincipal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Menu de Questões (1-30)')),
+      appBar: AppBar(title: const Text('Menu de Questões (1-57)')),
       body: ListView.builder(
         itemCount: _questoes.length,
         itemBuilder: (context, index) {
